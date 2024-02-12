@@ -1,4 +1,6 @@
-export const Button = ({ url = '/', content }) => {
+import { ButtonProps } from "@/app/interfaces/ButtonProps";
+
+export const Button: React.FC<ButtonProps> = ({ url = '/', content }) => {
   return (
     <a
       href={url}
