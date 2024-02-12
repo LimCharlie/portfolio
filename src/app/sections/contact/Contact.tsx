@@ -10,7 +10,7 @@ export const Contact = () => {
         Restons en contact !
       </h2>
       <p className='mb-6 text-slate-200'>
-        N'hésitez pas à me contacter pour toute opportunité professionnelle ou
+        N&apos;hésitez pas à me contacter pour toute opportunité professionnelle ou
         simplement pour échanger sur nos passions communes. Je suis disponible
         par email ou via{' '}
         <a
