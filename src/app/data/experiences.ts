@@ -1,0 +1,70 @@
+import { Experience } from '../interfaces/CardProps';
+
+export const expData: Experience[] = [
+  {
+    dateStart: '2019',
+    dateEnd: '2023',
+    url: 'https://www.hosman.co/',
+    title: 'Développeur Full Stack',
+    companyName: '@ Hosman',
+    content: [
+      "Intégration/Amélioration de l'interface Web en collaboration avec une UI/UX Designer.",
+      "Maintenance proactive de l'application Web basée en Ruby On Rails.",
+      "Implémentation régulière de nouvelle fonctionnalités pour enrichir l'experience utilisateur.",
+      "Développement d'une bibliothèque de composant en React JS.",
+      "Création d'un parcours de remise d'offre en ReactJS.",
+      'Etablissement rigoureux de tests unitaire en Ruby ou en React pour garantir la qualité du code et de la robustesse.',
+    ],
+    listOfLanguage: [
+      'HTML & CSS',
+      'Ruby On Rails',
+      'Javascript',
+      'Jquery',
+      'Bootstrap',
+      'React JS',
+      'Redux',
+      'Tailwind',
+      'Figma',
+    ],
+  },
+  {
+    dateStart: '2016',
+    dateEnd: '2019',
+    url: 'https://www.capsens.eu/',
+    title: 'Développeur Full Stack',
+    companyName: '@ Capsens',
+    content: [
+      "Intégration créative du contenu graphique et réflexion approfondie pour les améliorer l'experience utilisateur.",
+      "Conception de maquette avec Sketch pour visualiser et concrétiser les idées d'interface.",
+      'Maintenance proactive des plateformes en Ruby On Rails pour assurer la performance et la stabilité.',
+      "ajout régulier de nouvelle fonctionnalité à l'aide de Ruby On Rails pour enrichir les capactiés de la plateforme.",
+      'Implémentation méthodologique de test unitaire pour garantir la fiabilité et la qualité du code développé.',
+    ],
+    listOfLanguage: [
+      'HTML & CSS',
+      'Ruby On Rails',
+      'Javascript',
+      'Jquery',
+      'Bootstrap',
+      'Sketch',
+    ],
+  },
+  {
+    dateStart: '2015',
+    dateEnd: '2015',
+    url: 'https://tao-sense.com/',
+    title: 'Stage Développeur Web',
+    companyName: "@ Digit'ice / Tao Sense",
+    content: [
+      'Création de site E-commerce sous Wordpress, Intégration de contenus, adaptation du CMS à la maquette d e chaque site.',
+      "Collaboration avec une graphiste et un chef de projet Web. Pour la création des maquettes des différents sites, et l'élaboration des stratégies de communication.",
+    ],
+    listOfLanguage: [
+      'HTML & CSS',
+      'Wordpress',
+      'Javascript',
+      'Jquery',
+      'Bootstrap',
+    ],
+  },
+];

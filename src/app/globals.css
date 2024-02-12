@@ -3,31 +3,51 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --title-size: 48px;
+  --h1-size: 28px;
+  --h2-size: 22px;
+  --h3-size: 20px;
+  --headline-size: 17px;
+  --normal-size: 16px;
+  --subhead-size: 12px;
+  --small-text-1: 12px;
+  --smale-text-2: 11px;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
 }
